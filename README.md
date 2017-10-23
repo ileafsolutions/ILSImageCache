@@ -45,7 +45,9 @@ ILSImageCache.setCacheSize(_numberofitemscachecanhold: 10)
 ILSImageCache.removeImageCaches()
 ```
 
-4. Also have image downloader block method  ```swift ILSImageCache.loadImageusingCache(withUrl: imageUrl) { (status, image) in
+4. Also have image downloader block method  
+```swift 
+ILSImageCache.loadImageusingCache(withUrl: imageUrl) { (status, image) in
 guard let outPutimage = image
 else
 {
