@@ -65,12 +65,7 @@ case hideEffect,dissolve,none
 
 }
 ```
-6. UIButton Extension Is also available if needed 
 
-```swift 
-let url = "url_of_your_image"  
-button.loadImageUsingCache(withUrl: url, placeholder:  imageLiteral(resourceName: "placeholder"), animation:UIButton.AnimationTypes.hideEffect) 
-```  
 
 ## Author
 
