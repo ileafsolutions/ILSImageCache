@@ -57,13 +57,18 @@ return
 self.imageViewdwn.image = outPutimage
 }
 ```
-5. Also user can set the animation for image loading   ```swift  public enum AnimationTypes : String
+5. Also user can set the animation for image loading   
+```swift  
+public enum AnimationTypes : String
 {
 case hideEffect,dissolve,none
 
 }
 ```
-6. UIButton Extension Is also available if needed ```swift let url = "url_of_your_image"  button.loadImageUsingCache(withUrl: url, placeholder:  imageLiteral(resourceName: "placeholder"), animation: UIButton.AnimationTypes.hideEffect) ```  
+6. UIButton Extension Is also available if needed 
+```swift 
+let url = "url_of_your_image"  button.loadImageUsingCache(withUrl: url, placeholder:  imageLiteral(resourceName: "placeholder"), animation: UIButton.AnimationTypes.hideEffect) 
+```  
 ILSImageCache will download the image from url, send it to both the memory cache and the disk cache, and display it in imageView. When you use the same code later, the image will be retrieved from cache and shown immediately. 
 
 
