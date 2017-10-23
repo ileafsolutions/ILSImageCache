@@ -1,0 +1,586 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B063B8291F9DFA2500FD1D82 /* ILSImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B063B8281F9DFA2500FD1D82 /* ILSImageCache.swift */; };
+		B0856A721EF00C0D0083DA48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0856A711EF00C0D0083DA48 /* AppDelegate.swift */; };
+		B0856A771EF00C0D0083DA48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0856A751EF00C0D0083DA48 /* Main.storyboard */; };
+		B0856A791EF00C0D0083DA48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0856A781EF00C0D0083DA48 /* Assets.xcassets */; };
+		B0856A7C1EF00C0D0083DA48 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0856A7A1EF00C0D0083DA48 /* LaunchScreen.storyboard */; };
+		B0856A871EF00C0D0083DA48 /* ImageDownloaderTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0856A861EF00C0D0083DA48 /* ImageDownloaderTests.swift */; };
+		B0856A921EF00C0D0083DA48 /* ImageDownloaderUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0856A911EF00C0D0083DA48 /* ImageDownloaderUITests.swift */; };
+		B0CBB5A91EF0F7FC00CB25EC /* ImagesTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CBB5A81EF0F7FC00CB25EC /* ImagesTableViewController.swift */; };
+		B0CBB5AB1EF0FA7000CB25EC /* ImageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0CBB5AA1EF0FA7000CB25EC /* ImageTableViewCell.swift */; };
+		B0ED75121F98CF2000030334 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0856A731EF00C0D0083DA48 /* ViewController.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B0856A831EF00C0D0083DA48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0856A661EF00C0D0083DA48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0856A6D1EF00C0D0083DA48;
+			remoteInfo = ImageDownloader;
+		};
+		B0856A8E1EF00C0D0083DA48 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B0856A661EF00C0D0083DA48 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B0856A6D1EF00C0D0083DA48;
+			remoteInfo = ImageDownloader;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B0CBB5DA1EF16F5000CB25EC /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B063B8281F9DFA2500FD1D82 /* ILSImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ILSImageCache.swift; path = ILSImageCache/ILSImageCache.swift; sourceTree = "<group>"; };
+		B0856A6E1EF00C0D0083DA48 /* ImageDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0856A711EF00C0D0083DA48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		B0856A731EF00C0D0083DA48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		B0856A761EF00C0D0083DA48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		B0856A781EF00C0D0083DA48 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B0856A7B1EF00C0D0083DA48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		B0856A7D1EF00C0D0083DA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0856A821EF00C0D0083DA48 /* ImageDownloaderTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageDownloaderTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0856A861EF00C0D0083DA48 /* ImageDownloaderTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderTests.swift; sourceTree = "<group>"; };
+		B0856A881EF00C0D0083DA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0856A8D1EF00C0D0083DA48 /* ImageDownloaderUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ImageDownloaderUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		B0856A911EF00C0D0083DA48 /* ImageDownloaderUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageDownloaderUITests.swift; sourceTree = "<group>"; };
+		B0856A931EF00C0D0083DA48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B0CBB5A81EF0F7FC00CB25EC /* ImagesTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImagesTableViewController.swift; sourceTree = "<group>"; };
+		B0CBB5AA1EF0FA7000CB25EC /* ImageTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageTableViewCell.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B0856A6B1EF00C0D0083DA48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0856A7F1EF00C0D0083DA48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0856A8A1EF00C0D0083DA48 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B0856A651EF00C0D0083DA48 = {
+			isa = PBXGroup;
+			children = (
+				B0856A701EF00C0D0083DA48 /* ImageDownloader */,
+				B0856A851EF00C0D0083DA48 /* ImageDownloaderTests */,
+				B0856A901EF00C0D0083DA48 /* ImageDownloaderUITests */,
+				B0856A6F1EF00C0D0083DA48 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B0856A6F1EF00C0D0083DA48 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B0856A6E1EF00C0D0083DA48 /* ImageDownloader.app */,
+				B0856A821EF00C0D0083DA48 /* ImageDownloaderTests.xctest */,
+				B0856A8D1EF00C0D0083DA48 /* ImageDownloaderUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B0856A701EF00C0D0083DA48 /* ImageDownloader */ = {
+			isa = PBXGroup;
+			children = (
+				B063B8281F9DFA2500FD1D82 /* ILSImageCache.swift */,
+				B0856A711EF00C0D0083DA48 /* AppDelegate.swift */,
+				B0856A731EF00C0D0083DA48 /* ViewController.swift */,
+				B0CBB5A81EF0F7FC00CB25EC /* ImagesTableViewController.swift */,
+				B0CBB5AA1EF0FA7000CB25EC /* ImageTableViewCell.swift */,
+				B0856A751EF00C0D0083DA48 /* Main.storyboard */,
+				B0856A781EF00C0D0083DA48 /* Assets.xcassets */,
+				B0856A7A1EF00C0D0083DA48 /* LaunchScreen.storyboard */,
+				B0856A7D1EF00C0D0083DA48 /* Info.plist */,
+			);
+			path = ImageDownloader;
+			sourceTree = "<group>";
+		};
+		B0856A851EF00C0D0083DA48 /* ImageDownloaderTests */ = {
+			isa = PBXGroup;
+			children = (
+				B0856A861EF00C0D0083DA48 /* ImageDownloaderTests.swift */,
+				B0856A881EF00C0D0083DA48 /* Info.plist */,
+			);
+			path = ImageDownloaderTests;
+			sourceTree = "<group>";
+		};
+		B0856A901EF00C0D0083DA48 /* ImageDownloaderUITests */ = {
+			isa = PBXGroup;
+			children = (
+				B0856A911EF00C0D0083DA48 /* ImageDownloaderUITests.swift */,
+				B0856A931EF00C0D0083DA48 /* Info.plist */,
+			);
+			path = ImageDownloaderUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B0856A6D1EF00C0D0083DA48 /* ImageDownloader */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0856A961EF00C0D0083DA48 /* Build configuration list for PBXNativeTarget "ImageDownloader" */;
+			buildPhases = (
+				B0856A6A1EF00C0D0083DA48 /* Sources */,
+				B0856A6B1EF00C0D0083DA48 /* Frameworks */,
+				B0856A6C1EF00C0D0083DA48 /* Resources */,
+				B0CBB5DA1EF16F5000CB25EC /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ImageDownloader;
+			productName = ImageDownloader;
+			productReference = B0856A6E1EF00C0D0083DA48 /* ImageDownloader.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B0856A811EF00C0D0083DA48 /* ImageDownloaderTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0856A991EF00C0D0083DA48 /* Build configuration list for PBXNativeTarget "ImageDownloaderTests" */;
+			buildPhases = (
+				B0856A7E1EF00C0D0083DA48 /* Sources */,
+				B0856A7F1EF00C0D0083DA48 /* Frameworks */,
+				B0856A801EF00C0D0083DA48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0856A841EF00C0D0083DA48 /* PBXTargetDependency */,
+			);
+			name = ImageDownloaderTests;
+			productName = ImageDownloaderTests;
+			productReference = B0856A821EF00C0D0083DA48 /* ImageDownloaderTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		B0856A8C1EF00C0D0083DA48 /* ImageDownloaderUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B0856A9C1EF00C0D0083DA48 /* Build configuration list for PBXNativeTarget "ImageDownloaderUITests" */;
+			buildPhases = (
+				B0856A891EF00C0D0083DA48 /* Sources */,
+				B0856A8A1EF00C0D0083DA48 /* Frameworks */,
+				B0856A8B1EF00C0D0083DA48 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B0856A8F1EF00C0D0083DA48 /* PBXTargetDependency */,
+			);
+			name = ImageDownloaderUITests;
+			productName = ImageDownloaderUITests;
+			productReference = B0856A8D1EF00C0D0083DA48 /* ImageDownloaderUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B0856A661EF00C0D0083DA48 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "Vivek iLeaf";
+				TargetAttributes = {
+					B0856A6D1EF00C0D0083DA48 = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+					};
+					B0856A811EF00C0D0083DA48 = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B0856A6D1EF00C0D0083DA48;
+					};
+					B0856A8C1EF00C0D0083DA48 = {
+						CreatedOnToolsVersion = 8.3.2;
+						LastSwiftMigration = 0900;
+						ProvisioningStyle = Automatic;
+						TestTargetID = B0856A6D1EF00C0D0083DA48;
+					};
+				};
+			};
+			buildConfigurationList = B0856A691EF00C0D0083DA48 /* Build configuration list for PBXProject "ImageDownloader" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B0856A651EF00C0D0083DA48;
+			productRefGroup = B0856A6F1EF00C0D0083DA48 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B0856A6D1EF00C0D0083DA48 /* ImageDownloader */,
+				B0856A811EF00C0D0083DA48 /* ImageDownloaderTests */,
+				B0856A8C1EF00C0D0083DA48 /* ImageDownloaderUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B0856A6C1EF00C0D0083DA48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0856A7C1EF00C0D0083DA48 /* LaunchScreen.storyboard in Resources */,
+				B0856A791EF00C0D0083DA48 /* Assets.xcassets in Resources */,
+				B0856A771EF00C0D0083DA48 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0856A801EF00C0D0083DA48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0856A8B1EF00C0D0083DA48 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B0856A6A1EF00C0D0083DA48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B063B8291F9DFA2500FD1D82 /* ILSImageCache.swift in Sources */,
+				B0ED75121F98CF2000030334 /* ViewController.swift in Sources */,
+				B0CBB5AB1EF0FA7000CB25EC /* ImageTableViewCell.swift in Sources */,
+				B0856A721EF00C0D0083DA48 /* AppDelegate.swift in Sources */,
+				B0CBB5A91EF0F7FC00CB25EC /* ImagesTableViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0856A7E1EF00C0D0083DA48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0856A871EF00C0D0083DA48 /* ImageDownloaderTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B0856A891EF00C0D0083DA48 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B0856A921EF00C0D0083DA48 /* ImageDownloaderUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B0856A841EF00C0D0083DA48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0856A6D1EF00C0D0083DA48 /* ImageDownloader */;
+			targetProxy = B0856A831EF00C0D0083DA48 /* PBXContainerItemProxy */;
+		};
+		B0856A8F1EF00C0D0083DA48 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B0856A6D1EF00C0D0083DA48 /* ImageDownloader */;
+			targetProxy = B0856A8E1EF00C0D0083DA48 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		B0856A751EF00C0D0083DA48 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0856A761EF00C0D0083DA48 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		B0856A7A1EF00C0D0083DA48 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				B0856A7B1EF00C0D0083DA48 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		B0856A941EF00C0D0083DA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B0856A951EF00C0D0083DA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B0856A971EF00C0D0083DA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ImageDownloader",
+				);
+				INFOPLIST_FILE = ImageDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vivek-iLeaf.ImageDownloader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Debug;
+		};
+		B0856A981EF00C0D0083DA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/ImageDownloader",
+				);
+				INFOPLIST_FILE = ImageDownloader/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vivek-iLeaf.ImageDownloader";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+			};
+			name = Release;
+		};
+		B0856A9A1EF00C0D0083DA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ImageDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vivek-iLeaf.ImageDownloaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageDownloader.app/ImageDownloader";
+			};
+			name = Debug;
+		};
+		B0856A9B1EF00C0D0083DA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ImageDownloaderTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vivek-iLeaf.ImageDownloaderTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ImageDownloader.app/ImageDownloader";
+			};
+			name = Release;
+		};
+		B0856A9D1EF00C0D0083DA48 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ImageDownloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vivek-iLeaf.ImageDownloaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = ImageDownloader;
+			};
+			name = Debug;
+		};
+		B0856A9E1EF00C0D0083DA48 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ImageDownloaderUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "Vivek-iLeaf.ImageDownloaderUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_SWIFT3_OBJC_INFERENCE = On;
+				SWIFT_VERSION = 4.0;
+				TEST_TARGET_NAME = ImageDownloader;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B0856A691EF00C0D0083DA48 /* Build configuration list for PBXProject "ImageDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0856A941EF00C0D0083DA48 /* Debug */,
+				B0856A951EF00C0D0083DA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0856A961EF00C0D0083DA48 /* Build configuration list for PBXNativeTarget "ImageDownloader" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0856A971EF00C0D0083DA48 /* Debug */,
+				B0856A981EF00C0D0083DA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0856A991EF00C0D0083DA48 /* Build configuration list for PBXNativeTarget "ImageDownloaderTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0856A9A1EF00C0D0083DA48 /* Debug */,
+				B0856A9B1EF00C0D0083DA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B0856A9C1EF00C0D0083DA48 /* Build configuration list for PBXNativeTarget "ImageDownloaderUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B0856A9D1EF00C0D0083DA48 /* Debug */,
+				B0856A9E1EF00C0D0083DA48 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B0856A661EF00C0D0083DA48 /* Project object */;
+}
