@@ -66,6 +66,14 @@ case hideEffect,dissolve,none
 }
 ```
 
+6. Also ther is extension for UIButton
+
+```swift
+let url = "url_of_your_image"
+
+button.loadImageUsingCache(withUrl: url, placeholder:  placeholder image, animation: UIButton.AnimationTypes.dissolve)
+```
+
 
 ## Author
 
