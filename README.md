@@ -18,12 +18,12 @@ ILSImageCache is a lightweight, pure-Swift library for downloading and caching i
 
 ### Compatibility
 
--  iOS 8.0+
+-  iOS 9.0+
 
 - Xcode 9.0+, Swift 4+
 
 #### Manual installation
-Download and drop the 'ILSImageCache' folder into your Xcode project.
+Download and drop the 'ILSImageCache.framework' into your Xcode project.Make Sure you add it by Embedded Binaries
 
 
 ## Usage
@@ -72,6 +72,19 @@ case hideEffect,dissolve,none
 let url = "url_of_your_image"
 
 button.loadImageUsingCache(withUrl: url, placeholder:  placeholder image, animation: UIButton.AnimationTypes.dissolve)
+```
+
+7.Added UIImage Extension to Resize your image on the basis of width
+
+```swift
+self.imageViewdwn.image = outPutimage.resizedImage(toWidth: self.imageViewdwn.frame.size.width)
+
+```
+7.Added UIImage Extension to Resize your image on the basis of percentage
+
+```swift
+self.imageViewdwn.image = outPutimage.resizedImage(withPercentage: 0.2)
+
 ```
 
 

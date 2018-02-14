@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import ILSImageCache
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {

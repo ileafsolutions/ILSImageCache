@@ -7,7 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B063B8291F9DFA2500FD1D82 /* ILSImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = B063B8281F9DFA2500FD1D82 /* ILSImageCache.swift */; };
+		B03EDE42203414B3003492F2 /* ILSImageCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03EDE41203414B3003492F2 /* ILSImageCache.framework */; };
+		B03EDE43203414B3003492F2 /* ILSImageCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B03EDE41203414B3003492F2 /* ILSImageCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		B0856A721EF00C0D0083DA48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0856A711EF00C0D0083DA48 /* AppDelegate.swift */; };
 		B0856A771EF00C0D0083DA48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0856A751EF00C0D0083DA48 /* Main.storyboard */; };
 		B0856A791EF00C0D0083DA48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0856A781EF00C0D0083DA48 /* Assets.xcassets */; };
@@ -43,6 +44,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
+				B03EDE43203414B3003492F2 /* ILSImageCache.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -50,7 +52,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B063B8281F9DFA2500FD1D82 /* ILSImageCache.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ILSImageCache.swift; path = ILSImageCache/ILSImageCache.swift; sourceTree = "<group>"; };
+		B03EDE41203414B3003492F2 /* ILSImageCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ILSImageCache.framework; sourceTree = "<group>"; };
 		B0856A6E1EF00C0D0083DA48 /* ImageDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0856A711EF00C0D0083DA48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0856A731EF00C0D0083DA48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -73,6 +75,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B03EDE42203414B3003492F2 /* ILSImageCache.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -96,6 +99,7 @@
 		B0856A651EF00C0D0083DA48 = {
 			isa = PBXGroup;
 			children = (
+				B03EDE41203414B3003492F2 /* ILSImageCache.framework */,
 				B0856A701EF00C0D0083DA48 /* ImageDownloader */,
 				B0856A851EF00C0D0083DA48 /* ImageDownloaderTests */,
 				B0856A901EF00C0D0083DA48 /* ImageDownloaderUITests */,
@@ -116,7 +120,6 @@
 		B0856A701EF00C0D0083DA48 /* ImageDownloader */ = {
 			isa = PBXGroup;
 			children = (
-				B063B8281F9DFA2500FD1D82 /* ILSImageCache.swift */,
 				B0856A711EF00C0D0083DA48 /* AppDelegate.swift */,
 				B0856A731EF00C0D0083DA48 /* ViewController.swift */,
 				B0CBB5A81EF0F7FC00CB25EC /* ImagesTableViewController.swift */,
@@ -285,7 +288,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B063B8291F9DFA2500FD1D82 /* ILSImageCache.swift in Sources */,
 				B0ED75121F98CF2000030334 /* ViewController.swift in Sources */,
 				B0CBB5AB1EF0FA7000CB25EC /* ImageTableViewCell.swift in Sources */,
 				B0856A721EF00C0D0083DA48 /* AppDelegate.swift in Sources */,
@@ -375,6 +377,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_BITCODE = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -431,6 +434,7 @@
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = NO;
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_BITCODE = NO;
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
@@ -456,8 +460,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ImageDownloader",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ImageDownloader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vivek-iLeaf.ImageDownloader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -473,8 +479,10 @@
 				FRAMEWORK_SEARCH_PATHS = (
 					"$(inherited)",
 					"$(PROJECT_DIR)/ImageDownloader",
+					"$(PROJECT_DIR)",
 				);
 				INFOPLIST_FILE = ImageDownloader/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "Vivek-iLeaf.ImageDownloader";
 				PRODUCT_NAME = "$(TARGET_NAME)";
