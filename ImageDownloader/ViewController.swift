@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import ILSImageCache
 
 class ViewController: UIViewController {
     let imageUrl = "http://www.planwallpaper.com/static/images/0438f69c69a16398b5a96e3ad8e85b00_large.jpeg"
@@ -22,7 +22,7 @@ class ViewController: UIViewController {
                 self.imageViewdwn.image = #imageLiteral(resourceName: "placeholder")
             return
             }
-            self.imageViewdwn.image = outPutimage
+            self.imageViewdwn.image = outPutimage.resizedImage(toWidth: self.imageViewdwn.frame.size.width)
         }
         
         // Do any additional setup after loading the view, typically from a nib.

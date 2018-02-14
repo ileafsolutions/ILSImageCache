@@ -7,7 +7,7 @@
 //
 
 import UIKit
-
+import ILSImageCache
 class ImagesTableViewController: UITableViewController {
 
     var imageUrls = ["http://www.planwallpaper.com/static/images/9-credit-1.jpg","http://www.planwallpaper.com/static/images/images_1_05GM1zY.jpg","http://www.planwallpaper.com/static/images/offset_WaterHouseMarineImages_62652-2-660x440.jpg","http://www.planwallpaper.com/static/images/6F0CE738-6419-4CF4-8E8878246C2D2569.jpg","http://www.planwallpaper.com/static/images/Winter-Tiger-Wild-Cat-Images.jpg","http://www.planwallpaper.com/static/images/6986083-waterfall-images_Mc3SaMS.jpg","http://www.planwallpaper.com/static/images/tree-247122.jpg","http://cdn.wonderfulengineering.com/wp-content/uploads/2014/03/high-resolution-wallpapers-25.jpg"]
