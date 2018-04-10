@@ -1,0 +1,11 @@
+framework module ILSImageCache {
+  umbrella header "ILSImageCache.h"
+
+  export *
+  module * { export * }
+}
+
+module ILSImageCache.Swift {
+    header "ILSImageCache-Swift.h"
+    requires objc
+}
