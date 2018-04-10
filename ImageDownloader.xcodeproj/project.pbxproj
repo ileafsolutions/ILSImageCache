@@ -7,8 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		B03EDE42203414B3003492F2 /* ILSImageCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03EDE41203414B3003492F2 /* ILSImageCache.framework */; };
-		B03EDE43203414B3003492F2 /* ILSImageCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B03EDE41203414B3003492F2 /* ILSImageCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+
+		B03EDE4820342ADC003492F2 /* ILSImageCache.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B03EDE4720342ADC003492F2 /* ILSImageCache.framework */; };
+		B03EDE4920342ADC003492F2 /* ILSImageCache.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B03EDE4720342ADC003492F2 /* ILSImageCache.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+
 		B0856A721EF00C0D0083DA48 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0856A711EF00C0D0083DA48 /* AppDelegate.swift */; };
 		B0856A771EF00C0D0083DA48 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B0856A751EF00C0D0083DA48 /* Main.storyboard */; };
 		B0856A791EF00C0D0083DA48 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B0856A781EF00C0D0083DA48 /* Assets.xcassets */; };
@@ -44,7 +46,9 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				B03EDE43203414B3003492F2 /* ILSImageCache.framework in Embed Frameworks */,
+
+				B03EDE4920342ADC003492F2 /* ILSImageCache.framework in Embed Frameworks */,
+
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -52,7 +56,9 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
-		B03EDE41203414B3003492F2 /* ILSImageCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ILSImageCache.framework; sourceTree = "<group>"; };
+
+		B03EDE4720342ADC003492F2 /* ILSImageCache.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ILSImageCache.framework; sourceTree = "<group>"; };
+
 		B0856A6E1EF00C0D0083DA48 /* ImageDownloader.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ImageDownloader.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B0856A711EF00C0D0083DA48 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B0856A731EF00C0D0083DA48 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -75,7 +81,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B03EDE42203414B3003492F2 /* ILSImageCache.framework in Frameworks */,
+
+				B03EDE4820342ADC003492F2 /* ILSImageCache.framework in Frameworks */,
+
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -99,7 +107,9 @@
 		B0856A651EF00C0D0083DA48 = {
 			isa = PBXGroup;
 			children = (
-				B03EDE41203414B3003492F2 /* ILSImageCache.framework */,
+
+				B03EDE4720342ADC003492F2 /* ILSImageCache.framework */,
+
 				B0856A701EF00C0D0083DA48 /* ImageDownloader */,
 				B0856A851EF00C0D0083DA48 /* ImageDownloaderTests */,
 				B0856A901EF00C0D0083DA48 /* ImageDownloaderUITests */,
