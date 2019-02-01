@@ -30,6 +30,7 @@ class ViewController: UIViewController {
     @IBAction func clearCache(_ sender: Any)
     {
         ILSImageCache.removeImageCaches()
+        
     }
     
     @IBAction func listView(_ sender: UIButton)

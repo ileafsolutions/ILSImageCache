@@ -2,8 +2,8 @@
 //  ILSImageCache.h
 //  ILSImageCache
 //
-//  Created by Vivek iLeaf on 2/14/18.
-//  Copyright © 2018 Vivek iLeaf. All rights reserved.
+//  Created by Vivek S N on 01/02/19.
+//  Copyright © 2019 Vivek S N. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
