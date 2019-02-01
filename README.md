@@ -25,7 +25,8 @@ ILSImageCache is a lightweight, pure-Swift library for downloading and caching i
 #### Manual installation
 Download and drop the 'ILSImageCache.framework' into your Xcode project.Make Sure you add it by Embedded Binaries
 Also Please add this run script on your project target before uploading to app store
-```FRAMEWORK="ILSImageCache"
+```
+FRAMEWORK="ILSImageCache"
 FRAMEWORK_EXECUTABLE_PATH="${BUILT_PRODUCTS_DIR}/${FRAMEWORKS_FOLDER_PATH}/$FRAMEWORK.framework/$FRAMEWORK"
 EXTRACTED_ARCHS=()
 for ARCH in $ARCHS
